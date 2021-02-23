@@ -1,0 +1,21 @@
+.body{
+    background-color: #ffe05d;
+    min-height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 26px;
+    font-size: 17px;
+}
+img{
+    border-radius: 50%;
+    height: 150px;
+    margin-top: 20px;
+}
+.para{
+    padding-top: 10px;
+}
+.h{
+    margin-top: 20px;
+}

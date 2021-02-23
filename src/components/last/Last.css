@@ -1,0 +1,9 @@
+.last{
+    background-color: #646464;
+    min-height: 5vh;
+}
+
+footer > p{
+    padding-top: 10px;
+    color: white;
+}

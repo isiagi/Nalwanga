@@ -1,0 +1,17 @@
+.footer{
+    background-color: #ff9642;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 40vh;
+    flex-wrap: wrap;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+}
+.about{
+    width: 500px;
+    font-size: 18px;
+}
