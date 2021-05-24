@@ -26,7 +26,7 @@ function ProgressBar() {
     <div style={stylo}>
       <div>
         <img src={pa} alt="patricia" width="180" height="200" style={{borderRadius: '50%'}}/>
-        <h3 style={{fontFamily: 'sans-serif',fontSize: 18}}>Heyy</h3>
+        <h3 style={{fontFamily: 'sans-serif',fontSize: 18}}>Hello</h3>
         <p style={{fontFamily: 'sans-serif', fontSize: 18}}>Am a frontend developer in Kampala Uganda</p>
         <p style={{fontFamily: 'sans-serif', fontSize: 18}}>
           I have serious passion for UI effects, animations and creating <br/>

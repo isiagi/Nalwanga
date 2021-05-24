@@ -10,6 +10,9 @@ nav{
     min-height: 10vh;
     background-color: #fff8cd;
     flex-wrap: wrap;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
 }
 .nav_list{
     width: 30%;

@@ -9,7 +9,7 @@ function Body() {
     <>
       <Carousel indicators={false} strictIndexing={false}>
         <div className="img__tag">
-          <img src={imag} alt="welcome" className="patricia" />
+          <img src={imag} alt="welcome"  className="patricia" />
         </div>
         <div className="text__tag">
           <h1>Am Nalwanga Patricia</h1>
