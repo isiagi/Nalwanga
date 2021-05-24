@@ -6,12 +6,12 @@ import './progress.css'
 
 const testData = [
   { bgcolor: "#00a1a7", completed: 60, skill: "Html" },
-  { bgcolor: "#00a1a7", completed: 90, skill: "Css" },
-  { bgcolor: "#00a1a7", completed: 53, skill: "Javascript" },
-  { bgcolor: "#00a1a7", completed: 53, skill: "React" },
-  { bgcolor: "#00a1a7", completed: 53, skill: "Angular" },
-  { bgcolor: "#00a1a7", completed: 53, skill: "Node" },
-  { bgcolor: "#00a1a7", completed: 53, skill: "Php" },
+  { bgcolor: "#00a1a7", completed: 60, skill: "Css" },
+  { bgcolor: "#00a1a7", completed: 63, skill: "Javascript" },
+  { bgcolor: "#00a1a7", completed: 63, skill: "React" },
+  { bgcolor: "#00a1a7", completed: 63, skill: "Angular" },
+  { bgcolor: "#00a1a7", completed: 63, skill: "Node" },
+  { bgcolor: "#00a1a7", completed: 63, skill: "Php" },
 ];
 
 const stylo = {
