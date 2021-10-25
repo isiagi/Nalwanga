@@ -1,18 +1,7 @@
 import React from "react";
-import Progress from "./Progress";
 import pa from "../image/1.jpg";
 
 import './progress.css'
-
-const testData = [
-  { bgcolor: "#00a1a7", completed: 60, skill: "Html" },
-  { bgcolor: "#00a1a7", completed: 60, skill: "Css" },
-  { bgcolor: "#00a1a7", completed: 63, skill: "Javascript" },
-  { bgcolor: "#00a1a7", completed: 63, skill: "React" },
-  { bgcolor: "#00a1a7", completed: 63, skill: "Angular" },
-  { bgcolor: "#00a1a7", completed: 63, skill: "Node" },
-  { bgcolor: "#00a1a7", completed: 63, skill: "Php" },
-];
 
 const stylo = {
   display: "flex",
@@ -21,27 +10,38 @@ const stylo = {
   flexWrap: "wrap",
 };
 
+const love = {
+  display: "flex",
+  gap: 30,
+  flexWrap: "wrap",
+}
+
 function ProgressBar() {
   return (
     <div style={stylo}>
-      <div>
-        <img src={pa} alt="patricia" width="180" height="200" style={{borderRadius: '50%'}}/>
-        <h3 style={{fontFamily: 'sans-serif',fontSize: 18}}>Hello</h3>
+    <div>
+      <div style={love}>
+        <img src={pa} alt="patricia" width="400" height="500" style={{backgroundSize: 'cover'}} />
+        <div style={{lineHeight:2}}>
+        <h3 style={{fontFamily: 'sans-serif',fontSize: 30}}>About Me</h3>
+        <h3>Name: Nalwanga Patricia</h3>
+        <h3>Profession: Web Designer & Developer</h3>
         <p style={{fontFamily: 'sans-serif', fontSize: 18}}>Am a frontend developer in Kampala Uganda</p>
         <p style={{fontFamily: 'sans-serif', fontSize: 18}}>
           I have serious passion for UI effects, animations and creating <br/>
           intuitive, dynamic user experiences.
         </p>
+        <p style={{fontFamily: 'sans-serif', fontSize: 18}}>
+          I have serious passion for UI effects, animations and creating <br/>
+          intuitive, dynamic user experiences.
+        </p>
+        
+        <button>Hire Me</button>
+        </div>
+      </div>
       </div>
       <div className="bar">
-        {testData.map((item, idx) => (
-          <Progress
-            key={idx}
-            skill={item.skill}
-            bgcolor={item.bgcolor}
-            completed={item.completed}
-          />
-        ))}
+     
       </div>
     </div>
   );
